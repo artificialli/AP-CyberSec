@@ -1,9 +1,9 @@
-# AP2CyberSec
+# APsLaboratory
 
 ## Overview
 Welcome to my Cybersecurity Portfolio.
 
-This repository documents my hands-on cybersecurity journey through certification progress, project creation, and community developments. The goal of this repository is active application from concept to creation as I learn cybsecurity and the corresponding interests. During my journey, I will utilize a plethora of online resouces, free and paid, which will be all be available here:    [click me!](./learningMaterial.md)
+This repository documents my hands-on cybersecurity journey through project creation, and community developments. The goal of this repository is active application from concept to creation as I learn cybsecurity and apply my corresponding interests. During my journey, I will utilize a plethora of online resouces, free and paid, which will be all be available here:    [click me!](./learningMaterial.md)
 
 ## Objectives
 * Develop practical skills for enterprise use-case scenarios.
@@ -29,4 +29,4 @@ This repository documents my hands-on cybersecurity journey through certificatio
 ## Let's Connect
 
 * **LinkedIn**: [Aiyana P.](https://linkedin.com/artificialli)
-* **Email**: aiyana.pemberton@student.uagc.edu
+* **Email**: atpemberton@gmail.com
