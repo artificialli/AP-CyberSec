@@ -20,7 +20,7 @@ This repository documents my hands-on cybersecurity journey through project crea
 - [ ] Phase 2: Harden [networking fundamentals.](./networkingFundamentals.md)
 - [ ] Phase 3: Harden [programming fundamentals.](./programmingFundamentals.md) (Python, C#, C++)
 - [ ] Phase 4: Establish [cybersecurity fundamentals.](./cybersecurityFundamentals.md) 
-- [ ] Phase 5: Develop Projects ([home lab.](homelab.md), .
+- [ ] Phase 5: Develop Projects ([home lab.](homelab.md))
 - [ ] Phase 6: Final deployment and documentation polish.
 
 ## Professional Goal
