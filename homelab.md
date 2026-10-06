@@ -1,12 +1,12 @@
-## 29 August 2026
+## August 2026
 * Home Assistant Installation running on VirtualBox
 - [x] connect iot devices such as smart lights, robot vacuum, pet feeder
 - [x] custom ipv4 settings
-- [ ] connect garage opener, home thermostat
-- [ ] establish tailscale vpn for globall rdp
+- [sourcing] connect garage opener, home thermostat (electrician needed)
+- [ ] establish tailscale vpn for globall rdp (secure remote administration)
 - [ ] create custom dns via cloudflare for additional network security
-- [ ] build out automations
-- [ ] install motion sensors for inputs, heat sensors for interior monitoring
+- [x] build out automations
+- [sourcing] install motion sensors for inputs, heat sensors for interior monitoring
 
 * Jellyfin running on local server
 - [ ] custom ipv4 settings
@@ -19,12 +19,10 @@
 - [x] download software on local server
 - [ ] custom distro search
 
-## 1 September
+## September
 * Monitoring
 - [ ] Grafana
 - [ ] Prometheus
-
-## 4 September
 - [ ] navadrone music app for music
 - [ ] cloudflare for custom dns + ad blocking
 - [ ] jelly bridge
