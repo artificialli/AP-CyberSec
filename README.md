@@ -28,5 +28,5 @@ This repository documents my hands-on cybersecurity journey through project crea
 
 ## Let's Connect
 
-* **LinkedIn**: [Aiyana P.](https://linkedin.com/artificialli)
+* **LinkedIn**: [Aiyana P.](https://linkedin.com/in/artificialli/)
 * **Email**: atpemberton@gmail.com
