@@ -30,16 +30,16 @@ Metrics tracked: bandwidth, latency, false alarm rate, hardware temperatures
 - **Remediation:** Removed the AIO and CPU, applied fresh thermal paste, reinstalled both, and cleaned the cooler fans.
 - **Follow-up:** Installed L-Connect 3 to manage fan RPM.
 - **Result:** Temps now 35°C idle / 62°C load. Verified over 15 days.
-- **Prevention:** Set an alert at 80°C in HWiNFO, this is the overheating threshold for my cpu.
-- **Lesson learned:** The process of monitoring within the Stage environment before Prod led to the findings of a critical component overheating, which could have resulted in total system failure if left unmanaged. I learned the true value of system monitoring, re-installation, and alarm notifications through this incident.
-- #### Incident 2: OT device failure
+- **Prevention:** Set an alert at 80°C in HWiNFO, the overheating threshold for my CPU.
+- **Lesson learned:** Monitoring in staging caught a failing cooling component before production, where it could have caused system failure. Baselining temperatures and setting alerts are what make that early detection possible.
+#### Incident 2: OT device failure
 - **Symptom:** Camera observed offline on multiple occasions, high latency for live-monitoring observed via running ping. 
 - **Root cause:** Network packet loss from suspected wireless interference and network congestion.
-- **Remediation:** 
-- **Follow-up:** 
+- **Remediation:** documentation in progress
+- **Follow-up:** documentation in progress
 - **Result:** Device remains online, lower latency and ping observed.
-- **Prevention:** 
-- **Lesson learned:** 
+- **Prevention:** documentation in progress
+- **Lesson learned:** documentation in progress
   
 
 ## August 2026
