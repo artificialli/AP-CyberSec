@@ -1,32 +1,61 @@
-## August 2026
-* Home Assistant Installation running on VirtualBox
-- [x] connect iot devices such as smart lights, robot vacuum, pet feeder
-- [x] custom ipv4 settings
-- [sourcing] connect garage opener, home thermostat (electrician needed)
+## October
+
+* Staging build: software installation, configuration, and patching
+Metrics tracked: use-case scenarios, safety notification protocols
+
 - [ ] establish tailscale vpn for globall rdp (secure remote administration)
 - [ ] create custom dns via cloudflare for additional network security
-- [x] build out automations
-- [sourcing] install motion sensors for inputs, heat sensors for interior monitoring
-
-* Jellyfin running on local server
-- [ ] custom ipv4 settings
+- [ ] jellyfish custom ipv4 settings
 - [ ] configure jellyseer, sonarr, lidarr, radarr, prowlarr
 - [ ] arrange custom pull settings via jellyseer
 - [ ] observe automated pull for accuracy
 - [ ] tune retention settings and ot device delivery
-
-* Kali Linux
-- [x] download software on local server
-- [ ] custom distro search
-
-## September
-* Monitoring
+- [x] download kali linux software on local server
+- [ ] custom kali linux distro search
 - [ ] Grafana
 - [ ] Prometheus
 - [ ] navadrone music app for music
 - [ ] cloudflare for custom dns + ad blocking
 - [ ] jelly bridge
-- [ ] docker desktop
+
+
+## September 2026
+
+* Monitoring Staging build: performance and hardware health
+Metrics tracked: bandwidth, latency, false alarm rate, hardware temperatures
+
+#### Incident 1: CPU overheating
+- **Symptom:** CPU running at [60°C] idle / [95°C] under load, detected via AMD Ryzen Master.
+- **Root cause:** AIO cooler failure (thermal paste degradation), causing sustained overheating.
+- **Remediation:** Removed the AIO and CPU, applied fresh thermal paste, reinstalled both, and cleaned the cooler fans.
+- **Follow-up:** Installed L-Connect 3 to manage fan RPM.
+- **Result:** Temps now [35°C] idle / [62°C] load. Verified over 15 days.
+- **Prevention:** Set an alert at 60°C in HWiNFO.
+- **Lesson learned:** The process of monitoring within the Stage environment before Prod led to the findings of a critical component overheating, which could have resulted in total system failure if left unmanaged. I learned the true value of system monitoring, re-installation, and alarm notifications through this incident.
+- #### Incident 2: OT device failure
+- **Symptom:** Camera observed offline on multiple occasions, high latency for live-monitoring observed via running ping. 
+- **Root cause:** Network packet loss from wireless interference and network congestion.
+- **Remediation:** Removed the AIO and CPU, applied fresh thermal paste, reinstalled both, and cleaned the cooler fans.
+- **Follow-up:** 
+- **Result:** Device remains online, lower latency and ping observed.
+- **Prevention:** 
+- **Lesson learned:** 
+  
+
+## August 2026
+
+* Staging build: software installation and configuration
+Metrics tracked: use-case scenarios, application processes, dependencies for progress
+
+- [x] Home Assistant installation 
+- [x] VirtualBox installation
+- [x] connect iot devices such as smart lights, robot vacuum, pet feeder
+- [x] custom ipv4 settings
+- [sourcing] connect garage opener, home thermostat (electrician needed)
+- [x] build out automations
+- [sourcing] install motion sensors for inputs, heat sensors for interior monitoring
+- [x] docker desktop
+
 
 ## Sources
 * [reddit](https://www.reddit.com/r/sonarr/comments/17v6q01/making_sure_i_understand_what_sonarr_does/)
