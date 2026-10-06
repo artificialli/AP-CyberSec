@@ -4,16 +4,16 @@
 Metrics tracked: use-case scenarios, safety notification protocols
 
 - [ ] establish tailscale vpn for globall rdp (secure remote administration)
-- [ ] create custom dns via cloudflare for additional network security
+- [ ] Grafana
+- [ ] Prometheus
+- [ ] OT VLAN behind OPNsense
+- [x] download kali linux software on local server
+- [ ] custom kali linux distro search
 - [ ] jellyfish custom ipv4 settings
 - [ ] configure jellyseer, sonarr, lidarr, radarr, prowlarr
 - [ ] arrange custom pull settings via jellyseer
 - [ ] observe automated pull for accuracy
 - [ ] tune retention settings and ot device delivery
-- [x] download kali linux software on local server
-- [ ] custom kali linux distro search
-- [ ] Grafana
-- [ ] Prometheus
 - [ ] navadrone music app for music
 - [ ] cloudflare for custom dns + ad blocking
 - [ ] jelly bridge
@@ -25,17 +25,17 @@ Metrics tracked: use-case scenarios, safety notification protocols
 Metrics tracked: bandwidth, latency, false alarm rate, hardware temperatures
 
 #### Incident 1: CPU overheating
-- **Symptom:** CPU running at [60°C] idle / [95°C] under load, detected via AMD Ryzen Master.
-- **Root cause:** AIO cooler failure (thermal paste degradation), causing sustained overheating.
+- **Symptom:** CPU running at 60°C idle / 95°C under load, detected via AMD Ryzen Master.
+- **Root cause:** AIO cooler failure (degraded thermal paste between the CPU and AIO cold plate, reducing heat transfer), causing sustained overheating.
 - **Remediation:** Removed the AIO and CPU, applied fresh thermal paste, reinstalled both, and cleaned the cooler fans.
 - **Follow-up:** Installed L-Connect 3 to manage fan RPM.
-- **Result:** Temps now [35°C] idle / [62°C] load. Verified over 15 days.
-- **Prevention:** Set an alert at 60°C in HWiNFO.
+- **Result:** Temps now 35°C idle / 62°C load. Verified over 15 days.
+- **Prevention:** Set an alert at 80°C in HWiNFO, this is the overheating threshold for my cpu.
 - **Lesson learned:** The process of monitoring within the Stage environment before Prod led to the findings of a critical component overheating, which could have resulted in total system failure if left unmanaged. I learned the true value of system monitoring, re-installation, and alarm notifications through this incident.
 - #### Incident 2: OT device failure
 - **Symptom:** Camera observed offline on multiple occasions, high latency for live-monitoring observed via running ping. 
-- **Root cause:** Network packet loss from wireless interference and network congestion.
-- **Remediation:** Removed the AIO and CPU, applied fresh thermal paste, reinstalled both, and cleaned the cooler fans.
+- **Root cause:** Network packet loss from suspected wireless interference and network congestion.
+- **Remediation:** 
 - **Follow-up:** 
 - **Result:** Device remains online, lower latency and ping observed.
 - **Prevention:** 
