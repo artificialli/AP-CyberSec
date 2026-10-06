@@ -7,7 +7,7 @@ This repository documents my hands-on cybersecurity journey through project crea
 
 ## Objectives
 * Develop practical skills for enterprise use-case scenarios.
-* Prepare for certifications: Sec+, SC-200, SC-300, SAL1
+* Prepare for certifications: 
 * Create frameworks for collaborative troubleshooting amongst my peers, industry experts, and prospective individuals.
 * Establish accountability to active professional progression
 
