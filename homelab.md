@@ -3,7 +3,7 @@
 * Staging build: software installation, configuration, and patching
 Metrics tracked: use-case scenarios, safety notification protocols
 
-- [ ] establish tailscale vpn for globall rdp (secure remote administration)
+- [x] establish tailscale vpn for global rdp (secure remote administration)
 - [ ] Grafana
 - [ ] Prometheus
 - [ ] OT VLAN behind OPNsense
@@ -54,7 +54,7 @@ Metrics tracked: use-case scenarios, application processes, dependencies for pro
 - [sourcing] connect garage opener, home thermostat (electrician needed)
 - [x] build out automations
 - [sourcing] install motion sensors for inputs, heat sensors for interior monitoring
-- [x] docker desktop
+- [x] VirtualBox alternative research (Docker Desktop, VMware)
 
 
 ## Sources
