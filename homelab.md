@@ -15,7 +15,7 @@ Metrics tracked: use-case scenarios, safety notification protocols
 - [ ] observe automated pull for accuracy
 - [ ] tune retention settings and ot device delivery
 - [ ] navadrone music app for music
-- [ ] cloudflare for custom dns + ad blocking
+- [x] cloudflare for custom dns + ad blocking 
 - [ ] jelly bridge
 
 
@@ -61,7 +61,7 @@ Metrics tracked: use-case scenarios, application processes, dependencies for pro
 * [reddit](https://www.reddit.com/r/sonarr/comments/17v6q01/making_sure_i_understand_what_sonarr_does/)
 * [trashGuides](https://trash-guides.info/)
 * [trueNAS](https://forums.truenas.com/t/help-sonarr-radarr-sabnzb-jellyfin-install-driving-me-crazy/58585)
-* 
+* [reddit](https://www.reddit.com/r/CloudFlare/comments/um6fld/ads_and_tracker_blocking_with_cloudflare_gateway/)
 
 
 
